@@ -170,7 +170,7 @@ def main():
     args = parser.parse_args()
     date = datetime.strptime(args.date, "%Y%m%dT%H")
 
-    lead_time = 5 * 24
+    lead_time = 50 * 24
     save_fields = ['tp']
 
     logger.info(f"Running AIFS v2 for date: {date}")
